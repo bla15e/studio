@@ -1,0 +1,12 @@
+name = "bla15e-studio"
+type = 'webpack'
+account_id = "883ba17c734226e38e457a6c098fcffe"
+zone_id = "205cd6e84cdeaa5044dc66c02ac35d36"
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+
+
+[site]
+bucket = "./bla15e-studio" # <-- Add your build directory name here!
+entry-point = "workers-site"

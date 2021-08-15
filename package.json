@@ -78,7 +78,8 @@
     "test-e2e-cov": "node test/e2e/check-coverage.js",
     "test-treeshake": "rollup -c test/rollup.treeshake.config.js",
     "make-screenshot": "node test/e2e/puppeteer.js --make",
-    "prepublishOnly": "node utils/prepublish.js"
+    "prepublishOnly": "node utils/prepublish.js",
+    "copy-threejs-editor": " node ./utils/copy-threejs-editor.js"
   },
   "keywords": [
     "three",
@@ -114,6 +115,7 @@
     "eslint": "^7.31.0",
     "eslint-config-mdcs": "^5.0.0",
     "eslint-plugin-html": "^6.1.2",
+    "fs-extra": "^10.0.0",
     "glob": "^7.1.7",
     "rollup": "^2.55.1",
     "rollup-plugin-filesize": "^9.1.1",
